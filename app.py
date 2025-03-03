@@ -10,7 +10,7 @@ import google.generativeai as genai
 from typing import List, Dict, Any, Tuple
 
 # Page configuration
-st.set_page_config(page_title="CSV Data Analyst Chatbot with Gemini 2.0 Flash", layout="wide")
+st.set_page_config(page_title="CSV Data Analyst Chatbot By Nafi", layout="wide")
 
 def initialize_gemini_api():
     """Initialize the Gemini API safely"""
@@ -536,7 +536,6 @@ def display_app_limitations():
         - Upload any CSV file for instant analysis
         - Ask questions about your data in plain English
         - Get visualizations, statistics, and insights
-        - Powered by Gemini 2.0 Flash AI
         
         **Capabilities:**
         - Descriptive statistics and data exploration
@@ -559,7 +558,7 @@ def display_app_limitations():
         """)
 
 def main():
-    st.title("📊 Data Analyst Chatbot with Gemini 2.0 Flash")
+    st.title("📊 Data Analyst Chatbot By Nafi")
     st.write("Upload a CSV file and chat with your data for instant insights!")
     
     # Display app capabilities and limitations
