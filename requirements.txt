@@ -1,8 +1,7 @@
-streamlit
-streamlit-chat
-langchain
-langchain-community
-transformers
-sentence-transformers
-faiss-cpu
-ctransformers
+streamlit>=1.25.0
+pandas>=1.5.3
+numpy>=1.24.3
+matplotlib>=3.7.1
+seaborn>=0.12.2
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
