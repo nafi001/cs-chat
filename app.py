@@ -44,7 +44,7 @@ def initialize_gemini_api():
         st.session_state.temp_api_key = api_key
         st.session_state.selected_model = model_name
         
-        st.success(f"Using model: Gemini 2.0 Flash")
+        st.success(f"Advanced AI model initialized successfully! Ready to analyze your documents.")
         
         # Create the model instance
         return genai.GenerativeModel(model_name)
