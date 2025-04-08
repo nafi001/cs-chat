@@ -8,7 +8,7 @@ import io
 import base64
 import google.generativeai as genai
 from typing import List, Dict, Any, Tuple
-aaaaaa
+aaaaaaa
 # Page configuration
 st.set_page_config(page_title="CSV Data Analyst Chatbot By Nafi", layout="wide")
 
